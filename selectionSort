@@ -1,0 +1,13 @@
+a=[2,8,1,0,4,5,9,-8,7,-2,-10,-100,275,757]
+
+for i in range(len(a)-1):
+    smal_ind=i
+    for j in range(i+1,len(a)):
+        if a[j]<a[smal_ind]:
+            smal_ind=j
+    
+    temp=a[i]
+    a[i]=a[smal_ind]
+    a[smal_ind]=temp
+    
+print(a)
