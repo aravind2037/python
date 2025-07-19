@@ -1,0 +1,8 @@
+def fact(f,n):
+    if n==1:
+        return f*n
+    f=f*n
+    return fact(f,n-1)
+
+print(fact(1,4))
+        
