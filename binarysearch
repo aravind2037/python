@@ -4,7 +4,7 @@
 4	j=len(a)
 5	while i<j:
 6	    mid=i+j//2
-7	    print(mid)
+7	   
 8	    
 9	    if a[mid]==t:
 10	        print(a[mid])
@@ -12,7 +12,6 @@
 12	    
 13	    if a[mid]<t:
 14	        i=mid+1
-15	        print(i)
-16	        
+
 17	    elif a[mid]>t:
 18	        j=mid-1
