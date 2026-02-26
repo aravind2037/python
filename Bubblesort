@@ -7,3 +7,4 @@ for i in range(len(a)):
             a[j]=a[j+1]
             a[j+1]=temp
 print(a)
+print(a[::-1])
